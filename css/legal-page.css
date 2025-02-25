@@ -1,8 +1,12 @@
 .legal-header {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
   background-color: #e2e2e2;
-  padding: 30px;
-  margin-top: 60px;
+  padding: 20px;
   width: 100%;
+  z-index: 2;
 }
 
 .legal-header h1 {
@@ -12,11 +16,13 @@
 }
 
 main {
+  padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 section {
   display: flex;
-  gap: 30px;
+  gap: 25px;
   position: relative;
   border-bottom: 1px solid grey;
   padding: 30px;
@@ -26,10 +32,15 @@ section {
 }
 
 .section-label {
-  width: 100%;
+  position: sticky;
+  top: 200px;
+  width: 250px;
+  height: 50px;
+  left: -10px;
+  transform: translateX(-20px);
   background-color: #2b2d3b;
-  height: max-content;
-  padding: 10px 16px;
+  padding: 20px 26px;
+  z-index: 1;
 }
 
 .document-content {
@@ -53,12 +64,17 @@ section {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   width: 100%;
   background-color: #e2e2e2;
   padding: 0 30px;
   min-height: 70px;
+  z-index: 2;
 }
 
 .footer-content {

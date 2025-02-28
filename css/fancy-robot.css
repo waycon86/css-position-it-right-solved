@@ -32,13 +32,14 @@
 
 
 .robot-eye-right{
-    left: 450px;
-    top: -70px;
+    left: 28.125rem;
+    top: -4.375rem;
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 100px solid red;
+    background-image: url(../assets/images/eye.webp);
     position: relative;
     z-index: 2;
 }
@@ -58,9 +59,16 @@
     position: fixed;
     top: 200px;
     left: 550px;
-    width: 126px;
-    height: 180px;
+    width: 7.875rem;
+    height: 11.25rem;
     background-color: rgb(80, 174, 218);
+    background-image: url(../assets/images/cpu.jpg);
+    background-color: rgb(80, 174, 218);
+    background-image: url("../assets/images/cpu.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px black solid;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     z-index: 1;
 }
@@ -108,8 +116,8 @@
     top: 500px;
     left: 960px;
     transform: translateX(-50%);
-    width: 525px;
-    height: 170px;
+    width: 32.8125em;
+    height: 10.625em;
     border: 2px solid;
     border-color: transparent transparent black transparent;
     background-color: darkgreen;
